@@ -1,8 +1,8 @@
 {
-  "version": "1.9.4",
-  "build": 16,
+  "version": "1.9.5",
+  "build": 17,
   "web_url": "https://ingyasen.github.io/numerica-releases/",
-  "apk_url": "",
+  "apk_url": "https://ingyasen.github.io/numerica-releases/radix.apk",
   "api_url": "",
-  "changelog": "Al crear la cuenta ya no se pone pantalla blanca."
+  "changelog": "App para el celular: instalar APK y actualizar desde Ajustes."
 }
