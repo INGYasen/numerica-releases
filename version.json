@@ -1,8 +1,8 @@
 {
-  "version": "1.8.0",
-  "build": 10,
+  "version": "1.8.1",
+  "build": 11,
   "web_url": "https://ingyasen.github.io/numerica-releases/",
   "apk_url": "",
   "api_url": "",
-  "changelog": "Excel de clase, examen, historial, copia a otro celular y escaneo más fino."
+  "changelog": "Corrección: Repetir, examen y copia de cuenta ya no fallan."
 }
