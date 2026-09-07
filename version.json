@@ -1,8 +1,8 @@
 {
-  "version": "1.1.0",
-  "build": 2,
+  "version": "1.2.0",
+  "build": 3,
   "web_url": "https://ingyasen.github.io/numerica-releases/",
   "apk_url": "",
   "api_url": "",
-  "changelog": "Almacén con ejercicios de clase 2, tarea 2.1, semana 3, Müller y examen. Guías por método."
+  "changelog": "Avisos de actualización: banner, Ajustes → Actualizar y notificación al tocar."
 }
