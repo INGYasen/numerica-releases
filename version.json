@@ -1,8 +1,8 @@
 {
-  "version": "1.9.7",
-  "build": 19,
+  "version": "1.9.8",
+  "build": 20,
   "web_url": "https://ingyasen.github.io/numerica-releases/",
   "apk_url": "https://ingyasen.github.io/numerica-releases/radix.apk",
   "api_url": "",
-  "changelog": "Login más seguro: usuario único y datos cifrados."
+  "changelog": "Huella dactilar en Ajustes, funciona en el celular."
 }
