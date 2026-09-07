@@ -1,8 +1,8 @@
 {
-  "version": "1.2.0",
-  "build": 3,
+  "version": "1.3.0",
+  "build": 4,
   "web_url": "https://ingyasen.github.io/numerica-releases/",
   "apk_url": "",
   "api_url": "",
-  "changelog": "Avisos de actualización: banner, Ajustes → Actualizar y notificación al tocar."
+  "changelog": "Login, interfaz más limpia y Ajustes simplificados."
 }
