@@ -1,0 +1,9 @@
+{
+  "chips": [
+    { "id": "ea", "title": "Error aproximado", "text": "Ea = |(xi - xi-1) / xi| * 100. En clase suele pedirse Ea < 1%." },
+    { "id": "gprime", "title": "Punto fijo", "text": "Converge si |g'(x)| < 1 cerca de la raíz. Tabla: i | xi | Ei." },
+    { "id": "derivada1", "title": "Newton", "text": "derivada1: si x>1 entonces h=0.01*x, si no h=0.01." },
+    { "id": "muller", "title": "Müller", "text": "Parábola por 3 puntos. El signo de la raíz cuadrada es el mismo de b." },
+    { "id": "signo", "title": "Intervalo", "text": "Bisección y regla falsa necesitan f(a)*f(b) < 0." }
+  ]
+}

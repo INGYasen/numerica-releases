@@ -1,0 +1,8 @@
+{
+  "recipes": [
+    { "methodId": "punto-fijo", "file": "Punto.m", "call": "Punto(g, x0)", "error": 0.0005 },
+    { "methodId": "newton-raphson", "file": "NewtonRaphson.m", "call": "NewtonRaphson(f, x0)", "error": 0.0005 },
+    { "methodId": "secante", "file": "Secante.m", "call": "Secante(f, x0, x1)", "error": 0.0005 },
+    { "methodId": "muller", "file": "Muller.m", "call": "Muller(f, x0, x1, x2)", "note": "signo de sqrt igual al de b" }
+  ]
+}
