@@ -1,8 +1,8 @@
 {
-  "version": "1.9.5",
-  "build": 17,
+  "version": "1.9.6",
+  "build": 18,
   "web_url": "https://ingyasen.github.io/numerica-releases/",
   "apk_url": "https://ingyasen.github.io/numerica-releases/radix.apk",
   "api_url": "",
-  "changelog": "App para el celular: instalar APK y actualizar desde Ajustes."
+  "changelog": "Descargar app instala Radix en el celular."
 }
