@@ -1,0 +1,318 @@
+[
+  {
+    "file": "clase 2.xlsx",
+    "sheet": "metodo grafico",
+    "f": [],
+    "g": [],
+    "intervals": [],
+    "snippet": "ejercicio 1"
+  },
+  {
+    "file": "clase 2.xlsx",
+    "sheet": "biseccion",
+    "f": [],
+    "g": [],
+    "intervals": [],
+    "snippet": "i | ai | bi | ci | f(ai) | f(ci) | f(bi) | ea | 0 | 1 | 2 | 1.5 |  + |  - |  - | 1 | 1 | 1.5 | 1.25 |  + |  - |  - | 2 | 1 | 1.25 | 1.125 |  + |  - |  - | 3 | 1 | 1.125 | 1.0625 |  + |  + |  - | 4 | 1.0625 | 1.125 | 1.09375 |  + |  + |  - | 5 | 1.09375 | 1.125 | 1.1015625 |  + |  - |  -  | 6 | 1.09375 | 1.109375 | 1.10546875 |  + |  + |  -  | 7 | 1.1015625 | 1.109375 | 1.10546875 |  + |  + |  - | "
+  },
+  {
+    "file": "clase 2.xlsx",
+    "sheet": "regla falsa",
+    "f": [
+      "x sen(x) - 1, ",
+      "0.0072927 "
+    ],
+    "g": [],
+    "intervals": [
+      [
+        "2",
+        "3"
+      ]
+    ],
+    "snippet": "Ejercicio 1: | Aproximar la raiz de   f(x) = x sen(x) - 1, | con   Ea < 1 %. | [2 ; 3] | Metodo de la falsa posicion | mi = bi - f(bi)*(bi - ai) / ( f(bi) - f(ai) ) | Ei = |(mi - m(i-1)) / mi| * 100 | i | ai | bi | mi | f(ai) | f(mi) | f(bi) | Ei | 0 | 2 | 3 | En la iteracion i = 2 el error es  Ei = 0.8307398 %  <  1 % ,  por lo tanto se detiene el proceso. | Raiz aproximada:   x = 2.7693206      "
+  },
+  {
+    "file": "clase 2.xlsx",
+    "sheet": "biseccion ejercicio 1",
+    "f": [
+      "x sen(x) - 1, ",
+      "0.0154622 "
+    ],
+    "g": [],
+    "intervals": [
+      [
+        "2",
+        "3"
+      ]
+    ],
+    "snippet": "Ejercicio 1: | Aproximar la raiz de   f(x) = x sen(x) - 1, | con   Ea < 1 %. | [2 ; 3] | Metodo de la biseccion | mi = ( ai + bi ) / 2 | Ei = |(mi - m(i-1)) / mi| * 100 | i | ai | bi | mi | f(ai) | f(mi) | f(bi) | Ei | 0 | 2 | 3 | En la iteracion i = 5 el error es  Ei = 0.5649718 %  <  1 % ,  por lo tanto se detiene el proceso. | Raiz aproximada:   x = 2.7656250          f(x) = 0.0154622 | RESOLUC"
+  },
+  {
+    "file": "examen modelo unidad 1.xlsx",
+    "sheet": "ej4 biseccion secante",
+    "f": [],
+    "g": [],
+    "intervals": [
+      [
+        "3.25",
+        "3.75"
+      ],
+      [
+        "-1.5",
+        "-1"
+      ]
+    ],
+    "snippet": "Bisección | [3.25 ; 3.75] | i | ai | bi | mi | f(mi) | 0 | 3.25 | 3.75 | 3.5 | -2.6875 | 1 | 3.5 | 3.75 | 3.625 | 6.343994140625 | 2 | 3.5 | 3.625 | 3.5625 | 1.6298980712890625 | 3 | 3.5 | 3.5625 | 3.53125 | -0.5772695541381836 | 4 | 3.53125 | 3.5625 | 3.546875 | 0.5140581727027893 | 5 | 3.53125 | 3.546875 | 3.5390625 | -0.034652289003133774 | 6 | 3.5390625 | 3.546875 | 3.54296875 | 0.238939117873"
+  },
+  {
+    "file": "examen modelo unidad 1.xlsx",
+    "sheet": "ej3 punto fijo",
+    "f": [],
+    "g": [],
+    "intervals": [],
+    "snippet": "i | xi | Ei | 0 | 0.5 | 1 | 0.5532653298563167 | 9.62744762447879 | 2 | 0.5641671406395146 | 1.9323725183356208 | 3 | 0.5665004243214966 | 0.4118767756929121 | Evidencias Octave  | Iteraciones (filas 9 a 12)"
+  },
+  {
+    "file": "examen modelo unidad 1.xlsx",
+    "sheet": "ej2 newton",
+    "f": [],
+    "g": [],
+    "intervals": [],
+    "snippet": "k | x | Ei | 0 | 4.5 | 1 | 4.493909032970598 | 0.13553828047506158 | 2 | 4.493432381690405 | 0.010607732345889635 | Evidencias Octave  | NewtonRaphson.m | Gráfica"
+  },
+  {
+    "file": "examen modelo unidad 1.xlsx",
+    "sheet": "ej1 regla falsa",
+    "f": [],
+    "g": [],
+    "intervals": [
+      [
+        "-0.3",
+        "-0.1"
+      ]
+    ],
+    "snippet": "[-0.3 ; -0.1] | i | ai | bi | ci | f(ci) | Ei | 0 | -0.3 | -0.1 | -0.18723219396864632 | 0.08787942903813123 | 1 | -0.3 | -0.18723219396864632 | -0.19638050499504728 | -0.00030146441442667704 | 4.658461911293934 | 2 | -0.19638050499504728 | -0.18723219396864632 | -0.1963492296232679 | 3.0299773107958864e-06 | 0.015928441297880253 | 3 | -0.19638050499504728 | -0.1963492296232679 | -0.19634954083972"
+  },
+  {
+    "file": "semana 3.xlsx",
+    "sheet": "metodo del punto fijo",
+    "f": [],
+    "g": [],
+    "intervals": [
+      [
+        "1",
+        "2"
+      ]
+    ],
+    "snippet": "[1 ; 2] | Metodo del punto fijo | xi+1 = g(xi) = 20 / ( xi^2 + 2 xi + 10 ) | x0 = 3/2 |  (i , xi , Ei) hasta Ea < 1 %: | i | xi | Ei | 0 | 1.5 | 1 | 1.3114754098360655 | 14.375000000000007 | 2 | 1.3944163387670976 | 5.948074949004547 | 3 | 1.3574756206504714 | 2.721280408625312 | 4 | 1.373844216445601 | 1.1914448231603956 | 5 | 1.366574215820903 | 0.5319872525423626 | En i = 5 el error es  Ei = 0."
+  },
+  {
+    "file": "semana 3_kljichzqqbl8.xlsx",
+    "sheet": "metodo del punto fijo",
+    "f": [],
+    "g": [],
+    "intervals": [
+      [
+        "1",
+        "2"
+      ]
+    ],
+    "snippet": "[1 ; 2] | Metodo del punto fijo | xi+1 = g(xi) = 20 / ( xi^2 + 2 xi + 10 ) | x0 = 3/2 |  (i , xi , Ei) hasta Ea < 1 %: | i | xi | Ei | 0 | 1.5 | 1 | 1.3114754098360655 | 14.375000000000007 | 2 | 1.3944163387670976 | 5.948074949004547 | 3 | 1.3574756206504714 | 2.721280408625312 | 4 | 1.373844216445601 | 1.1914448231603956 | 5 | 1.366574215820903 | 0.5319872525423626 | En i = 5 el error es  Ei = 0."
+  },
+  {
+    "file": "semana 3_kljichzqqbl8.xlsx",
+    "sheet": "newton",
+    "f": [],
+    "g": [],
+    "intervals": [],
+    "snippet": "x0 = 0 | i | xi | Ei | 0 | 0 | 1 | 0.5 | 100 | 2 | 0.5663110031972182 | 11.709290976662396 | 3 | 0.5671431650348622 | 0.14672870783743905 | RESOLUCION  | Octave: formula Newton | Octave"
+  },
+  {
+    "file": "semana 3_kljichzqqbl8.xlsx",
+    "sheet": "secante",
+    "f": [],
+    "g": [],
+    "intervals": [],
+    "snippet": "x0 = 0 | Metodo de la secante | x1 = 1 | No se usa derivada; se usan dos puntos iniciales. | i | xi-1 | xi | xi+1 | Ei | 0 | 0 | 1 | 0.6126998367802821 | 63.212055882855765 | 1 | 1 | 0.6126998367802821 | 0.5638383891610742 | 8.665860388099505 | 2 | 0.6126998367802821 | 0.5638383891610742 | 0.5671703584197446 | 0.5874723897690938 | 3 | 0.5638383891610742 | 0.5671703584197446 | 0.5671433066049633 | "
+  },
+  {
+    "file": "semana 3_kljichzqqbl8.xlsx",
+    "sheet": "ejercicio con los dos metodos",
+    "f": [],
+    "g": [],
+    "intervals": [],
+    "snippet": "1) Grafica  (para hallar los intervalos) | Grafica de f(x) | Octave"
+  },
+  {
+    "file": "sesion 4.xlsx",
+    "sheet": "Sheet1",
+    "f": [],
+    "g": [],
+    "intervals": [],
+    "snippet": ""
+  },
+  {
+    "file": "tarea 2.1.xlsx",
+    "sheet": "ejercicio 1",
+    "f": [
+      "-0.0082106 "
+    ],
+    "g": [],
+    "intervals": [
+      [
+        "0.75",
+        "1"
+      ]
+    ],
+    "snippet": "[0.75 ; 1] | Metodo de la biseccion | mi = ( ai + bi ) / 2 | Ei = |(mi - m(i-1)) / mi| * 100 | i | ai | bi | mi | f(ai) | f(mi) | f(bi) | Ei | 0 | 0.75 | 1 | 0.875 | + | - | - | 1 | 0.75 | 0.875 | 0.8125 | + | - | - | 7.6923076923076925 | 2 | 0.75 | 0.8125 | 0.78125 | + | - | - | 4 | 3 | 0.75 | 0.78125 | 0.765625 | + | + | - | 2.0408163265306123 | 4 | 0.765625 | 0.78125 | 0.7734375 | + | + | - | 1"
+  },
+  {
+    "file": "tarea 2.1.xlsx",
+    "sheet": "ejercicio 2",
+    "f": [
+      "-0.0050565 "
+    ],
+    "g": [],
+    "intervals": [
+      [
+        "0.8",
+        "1"
+      ],
+      [
+        "0.8",
+        "1"
+      ]
+    ],
+    "snippet": "[0.8 ; 1] | Metodo de la biseccion | mi = ( ai + bi ) / 2 | Ei = |(mi - m(i-1)) / mi| * 100 | Aislamiento:  f(0.8) > 0  y  f(1) < 0  ->  hay raiz en [0.8 ; 1].  tan(x) tiene asintota en pi/2 ~ 1.57. | Numero de raices:  una raiz en (0 ; pi/2).  Como tan(x) se dispara a +inf en cada rama (k*pi, k*pi + pi/2), hay infinitas raices positivas se calcula la primera. | i | ai | bi | mi | f(ai) | f(mi) | "
+  },
+  {
+    "file": "tarea 2.1.xlsx",
+    "sheet": "ejercicio 3",
+    "f": [
+      "0.0339434 "
+    ],
+    "g": [],
+    "intervals": [
+      [
+        "1",
+        "2"
+      ],
+      [
+        "1",
+        "2"
+      ]
+    ],
+    "snippet": "[1 ; 2] | Metodo de la falsa posicion | mi = bi - f(bi)*(bi - ai) / ( f(bi) - f(ai) ) | Ei = |(mi - m(i-1)) / mi| * 100 | Aislamiento:  f(1) = 2 > 0  y  f(2) = -8 < 0  ->  hay raiz en [1 ; 2]. | i | ai | bi | mi | f(ai) | f(mi) | f(bi) | Ei | 0 | 1 | 2 | 1.2 | + | + | - | 1 | 1.2 | 2 | 1.2753623188405796 | + | + | - | 5.909090909090905 | 2 | 1.2753623188405796 | 2 | 1.3014708579393317 | + | + | - "
+  },
+  {
+    "file": "tarea 2.1.xlsx",
+    "sheet": "ejercicio 4",
+    "f": [
+      "-0.0001200 "
+    ],
+    "g": [],
+    "intervals": [
+      [
+        "1",
+        "2"
+      ]
+    ],
+    "snippet": "[1 ; 2] | Metodo de la falsa posicion | mi = bi - f(bi)*(bi - ai) / ( f(bi) - f(ai) ) | Ei = |(mi - m(i-1)) / mi| * 100 | i | ai | bi | mi | f(ai) | f(mi) | f(bi) | Ei | 0 | 1 | 2 | 1.8123153108523413 | - | - | + | 1 | 1.8123153108523413 | 2 | 1.8401912858091365 | - | - | + | 1.5148411565560718 | 2 | 1.8401912858091365 | 2 | 1.841068663210181 | - | - | + | 0.0476558760994059 | En la iteracion i = "
+  },
+  {
+    "file": "tarea discreta 1.xlsx",
+    "sheet": "tarea",
+    "f": [],
+    "g": [],
+    "intervals": [],
+    "snippet": ""
+  },
+  {
+    "file": "tareamate.xlsx",
+    "sheet": "EJERCICIO_1",
+    "f": [],
+    "g": [],
+    "intervals": [],
+    "snippet": "EJERCICIO_1 |  "
+  },
+  {
+    "file": "tareamate.xlsx",
+    "sheet": "EJERCICIO_2",
+    "f": [],
+    "g": [],
+    "intervals": [],
+    "snippet": "EJERCICIO_2"
+  },
+  {
+    "file": "tareamate.xlsx",
+    "sheet": "EJERCICIO_3",
+    "f": [],
+    "g": [],
+    "intervals": [],
+    "snippet": "EJERCICIO_3 | 1"
+  },
+  {
+    "file": "tareamate.xlsx",
+    "sheet": "EJERCICIO_4",
+    "f": [],
+    "g": [],
+    "intervals": [],
+    "snippet": ""
+  },
+  {
+    "file": "tareamate.xlsx",
+    "sheet": "EJERCICIO_5",
+    "f": [],
+    "g": [],
+    "intervals": [],
+    "snippet": ""
+  },
+  {
+    "file": "tareamate.xlsx",
+    "sheet": "EJERCICIO_6",
+    "f": [],
+    "g": [],
+    "intervals": [],
+    "snippet": ""
+  },
+  {
+    "file": "trabajo mate.xlsx",
+    "sheet": "class 1",
+    "f": [],
+    "g": [],
+    "intervals": [],
+    "snippet": "#VALUE! | #VALUE!"
+  },
+  {
+    "file": "trabajo mate.xlsx",
+    "sheet": "ejercicios todo",
+    "f": [],
+    "g": [],
+    "intervals": [],
+    "snippet": "valor verdadero | x= | 0.255307461 | valor aproximado | x*= | 0.255307443 | a)error verdadero | ev= | 1.78e-09 | b) error relativo | er= | 6.97146e-06 | valor verdadero | x= | 0.099833416647 | valor aproximado | x*= | 0.0998334166468254 | a)error verdadero | ev= | 1.74603e-13 | b) error relativo | er= | 1.74895e-10 | x | 54.687 | a) | ev | 0.003 | x* | 54.69 | er | 0.0054858 | d) | li | 54.687 | l"
+  },
+  {
+    "file": "trabajo mate_wzxlixy4kwpg.xlsx",
+    "sheet": "class 1",
+    "f": [],
+    "g": [],
+    "intervals": [],
+    "snippet": "#VALUE! | #VALUE!"
+  },
+  {
+    "file": "trabajo mate_wzxlixy4kwpg.xlsx",
+    "sheet": "ejercicios todo",
+    "f": [],
+    "g": [],
+    "intervals": [],
+    "snippet": "valor verdadero | x= | 0.255307461 | valor aproximado | x*= | 0.255307443 | a)error verdadero | ev= | 1.78e-09 | b) error relativo | er= | 6.97146e-06 | valor verdadero | x= | 0.099833416647 | valor aproximado | x*= | 0.0998334166468254 | a)error verdadero | ev= | 1.74603e-13 | b) error relativo | er= | 1.74895e-10 | x | 54.687 | a) | ev | 0.003 | x* | 54.69 | er | 0.0054858 | d) | li | 54.687 | l"
+  },
+  {
+    "file": "ultima sesion mate.xlsx",
+    "sheet": "muller",
+    "f": [],
+    "g": [],
+    "intervals": [],
+    "snippet": "i | x0 | x1 | x2 | x3 | Ei | 0 | 4.5 | 5.5 | 5 | 3.976487042240655 | 1 | 5.5 | 5 | 3.976487042240655 | 4.001050498815179 | 0.6139251824438995 | 2 | 5 | 3.976487042240655 | 4.001050498815179 | 4.000000705270522 | 0.0262448339889913 | Evidencias Octave"
+  }
+]

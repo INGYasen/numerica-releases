@@ -1,0 +1,96 @@
+{
+  "methods": [
+    {
+      "id": "biseccion",
+      "table": ["i", "ai", "bi", "mi", "f(mi)", "Ei"],
+      "defaultStop": { "type": "ea_percent", "value": 1 },
+      "formula": "mi = (ai + bi) / 2",
+      "octave": "Biseccion / tabla propia; criterio Excel Ea < 1 %",
+      "steps": [
+        "Graficar o evaluar f(a) y f(b): debe haber cambio de signo.",
+        "mi = (ai+bi)/2",
+        "Si f(ai)*f(mi) <= 0 → bi = mi; si no → ai = mi",
+        "Ei = |(mi - mi_ant)/mi|*100",
+        "Parar cuando Ea < 1 % (o el del enunciado)"
+      ]
+    },
+    {
+      "id": "falsa-posicion",
+      "table": ["i", "ai", "bi", "ci", "f(ci)", "Ei"],
+      "defaultStop": { "type": "ea_percent", "value": 1 },
+      "formula": "ci = bi - f(bi)*(bi-ai)/(f(bi)-f(ai))",
+      "octave": "RegulaFalsi(f,a,b)",
+      "steps": [
+        "Intervalo con cambio de signo",
+        "ci = bi - f(bi)*(bi-ai)/(f(bi)-f(ai))",
+        "Actualizar el extremo según el signo de f(ci)",
+        "Ei entre ci sucesivos",
+        "Parar con Ea del enunciado (clase 1 %, examen a veces 0.01 %)"
+      ]
+    },
+    {
+      "id": "punto-fijo",
+      "table": ["i", "xi", "Ei"],
+      "defaultStop": { "type": "ea_percent", "value": 1 },
+      "formula": "xi+1 = g(xi)",
+      "octave": "Punto(g,x0)  error=0.0005",
+      "steps": [
+        "Varias despejes x=g(x); elegir la que converge",
+        "Comprobar |g'(x)| < 1 cerca de la raíz",
+        "Tabla solo i | xi | Ei (sin columna g(xn))",
+        "i=0: xi=x0 sin Ei; luego xi=g(xi-1)",
+        "Excel: Ea < 1 %. Octave Punto.m usa 0.0005 absoluto"
+      ]
+    },
+    {
+      "id": "newton-raphson",
+      "table": ["i", "x", "Ei"],
+      "defaultStop": { "type": "ea_percent", "value": 1 },
+      "formula": "x = x - f(x)/derivada1(f,x)",
+      "octave": "NewtonRaphson(f,x0)",
+      "steps": [
+        "Elegir x0 cerca de la raíz (gráfica)",
+        "derivada1: h=0.01*x si x>1; si no h=0.01",
+        "x_nuevo = x - f(x)/f'(x)",
+        "Parar con Ea < 1 % o |Δx|<=0.0005 en Octave"
+      ]
+    },
+    {
+      "id": "secante",
+      "table": ["i", "x0", "x1", "x", "f(x)", "Ei"],
+      "defaultStop": { "type": "ea_percent", "value": 1 },
+      "formula": "x = x1 - f(x1)*(x1-x0)/(f(x1)-f(x0))",
+      "octave": "Secante(f,x0,x1)",
+      "steps": [
+        "Dos puntos iniciales (no hace falta derivada)",
+        "Desplazar x0←x1, x1←x",
+        "Parar con Ea o |f(x)| según el enunciado"
+      ]
+    },
+    {
+      "id": "muller",
+      "table": ["i", "x3", "f(x3)", "Ei"],
+      "defaultStop": { "type": "ea_percent", "value": 0.05 },
+      "formula": "x3 = x2 - 2c/(b ± sqrt(b^2-4ac))  (signo de b)",
+      "octave": "Muller(f,x0,x1,x2)",
+      "steps": [
+        "Tres puntos x0,x1,x2",
+        "c=f(x2); a y b como en la GT",
+        "Signo de la raíz igual al de b",
+        "Clase GT: Ea < 0.05 %"
+      ]
+    },
+    {
+      "id": "bairstow",
+      "table": ["i", "r", "s", "Ei"],
+      "defaultStop": { "type": "ea_percent", "value": 0.01 },
+      "formula": "factores x^2 - r x - s",
+      "octave": "Bairstow / roots(p)",
+      "steps": [
+        "Polinomio en coeficientes descendentes",
+        "Iterar r,s hasta residuos chicos",
+        "Raíces del cuadrático y del cociente"
+      ]
+    }
+  ]
+}

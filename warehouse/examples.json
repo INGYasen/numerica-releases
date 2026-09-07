@@ -1,8 +1,72 @@
 {
   "examples": [
     {
+      "id": "clase2-biseccion-xsenx",
+      "source": "clase 2.xlsx",
+      "methodId": "biseccion",
+      "title": "Bisección x·sen(x)−1",
+      "f": "x*sin(x)-1",
+      "interval": [2, 3],
+      "stop": { "type": "ea_percent", "value": 1 },
+      "expectedRoot": 2.765625,
+      "notes": "i=5, Ei≈0.565 %. Tabla ai bi mi f(mi) Ei."
+    },
+    {
+      "id": "clase2-falsa-xsenx",
+      "source": "clase 2.xlsx",
+      "methodId": "falsa-posicion",
+      "title": "Regla falsa x·sen(x)−1",
+      "f": "x*sin(x)-1",
+      "interval": [2, 3],
+      "stop": { "type": "ea_percent", "value": 1 },
+      "expectedRoot": 2.7693206,
+      "notes": "i=2, Ei≈0.831 %. Fórmula mi de regla falsa."
+    },
+    {
+      "id": "t21-biseccion-exp",
+      "source": "tarea 2.1.xlsx",
+      "methodId": "biseccion",
+      "title": "Bisección exp(−x²)−2x+1",
+      "f": "exp(-x^2)-2*x+1",
+      "interval": [0.75, 1],
+      "stop": { "type": "ea_percent", "value": 1 },
+      "expectedRoot": 0.7773438
+    },
+    {
+      "id": "t21-biseccion-sqrt-tan",
+      "source": "tarea 2.1.xlsx",
+      "methodId": "biseccion",
+      "title": "Bisección √(x²+1)−tan(x)",
+      "f": "sqrt(x^2+1)-tan(x)",
+      "interval": [0.8, 1],
+      "stop": { "type": "ea_percent", "value": 1 },
+      "expectedRoot": 0.94375,
+      "notes": "Cuidado: asíntota de tan en π/2."
+    },
+    {
+      "id": "t21-falsa-4xx",
+      "source": "tarea 2.1.xlsx",
+      "methodId": "falsa-posicion",
+      "title": "Falsa posición 4−x²−x³",
+      "f": "4-x^2-x^3",
+      "interval": [1, 2],
+      "stop": { "type": "ea_percent", "value": 1 },
+      "expectedRoot": 1.3102401
+    },
+    {
+      "id": "t21-falsa-ln",
+      "source": "tarea 2.1.xlsx",
+      "methodId": "falsa-posicion",
+      "title": "Falsa posición ln(x)+x²−4",
+      "f": "log(x)+x^2-4",
+      "interval": [1, 2],
+      "stop": { "type": "ea_percent", "value": 1 },
+      "expectedRoot": 1.8410687,
+      "notes": "En Excel usaban LN(x)."
+    },
+    {
       "id": "s3-gt-punto-fijo",
-      "source": "GT sesión 3",
+      "source": "semana 3 / GT",
       "methodId": "punto-fijo",
       "title": "Punto fijo — ejemplo de clase",
       "f": "x^3+2*x^2+10*x-20",
@@ -11,7 +75,7 @@
       "x0": 1.5,
       "stop": { "type": "ea_percent", "value": 1 },
       "expectedRoot": 1.3665742,
-      "notes": "Tabla i | xi | Ei. x0 = 3/2."
+      "notes": "x0=3/2. i=5 Ei≈0.532 %. Tabla i|xi|Ei. Punto.m → ≈1.3687"
     },
     {
       "id": "s3-gt-newton",
@@ -24,24 +88,15 @@
       "expectedRoot": 1.3688081
     },
     {
-      "id": "s2-biseccion-exp",
-      "source": "Sesión 2",
-      "methodId": "biseccion",
-      "title": "Bisección exp(-x^2)-2x+1",
-      "f": "exp(-x^2)-2*x+1",
-      "interval": [0.75, 1],
+      "id": "s3-secante-clase",
+      "source": "GT sesión 3",
+      "methodId": "secante",
+      "title": "Secante — misma f",
+      "f": "x^3+2*x^2+10*x-20",
+      "x0": 1,
+      "x1": 2,
       "stop": { "type": "ea_percent", "value": 1 },
-      "expectedRoot": 0.86
-    },
-    {
-      "id": "s2-falsa-4xx",
-      "source": "Sesión 2",
-      "methodId": "falsa-posicion",
-      "title": "Falsa posición 4-x^2-x^3",
-      "f": "4-x^2-x^3",
-      "interval": [1, 2],
-      "stop": { "type": "ea_percent", "value": 1 },
-      "expectedRoot": 1.164
+      "expectedRoot": 1.3688081
     },
     {
       "id": "exam-u1-regla-falsa",
@@ -57,11 +112,12 @@
       "id": "exam-u1-newton-tan",
       "source": "Examen modelo U1",
       "methodId": "newton-raphson",
-      "title": "Menor raíz positiva de x-tan(x)",
+      "title": "Menor raíz positiva x−tan(x)",
       "f": "x-tan(x)",
       "x0": 4.5,
       "stop": { "type": "ea_percent", "value": 1 },
-      "expectedRoot": 4.4934
+      "expectedRoot": 4.4934,
+      "notes": "Intervalo útil cerca de (π, 3π/2)."
     },
     {
       "id": "exam-u1-punto-fijo-log",
@@ -73,7 +129,7 @@
       "x0": 0.5,
       "stop": { "type": "ea_percent", "value": 1 },
       "expectedRoot": 0.5665,
-      "notes": "Mejor g: (x+e^{-x})/2. |g'(0.5)|≈0.197"
+      "notes": "(a)|g'|=2 no; (b)≈0.606 sí; (c)≈0.197 mejor."
     },
     {
       "id": "exam-u1-biseccion-poly",
@@ -98,16 +154,16 @@
     },
     {
       "id": "s4-gt-muller",
-      "source": "GT sesión 4",
+      "source": "ultima sesion mate.xlsx / GT s4",
       "methodId": "muller",
-      "title": "Müller x^3-13x-12",
+      "title": "Müller x³−13x−12",
       "f": "x^3-13*x-12",
       "x0": 4.5,
       "x1": 5.5,
       "x2": 5,
       "stop": { "type": "ea_percent", "value": 0.05 },
       "expectedRoot": 4.0000007,
-      "notes": "En i=2, Ea ≈ 0.026%"
+      "notes": "i=2, Ea≈0.026 %. Signo de sqrt = signo de b."
     },
     {
       "id": "s4-bairstow-same",

@@ -1,8 +1,8 @@
 {
-  "version": "1.0.0",
-  "build": 1,
+  "version": "1.1.0",
+  "build": 2,
   "web_url": "https://ingyasen.github.io/numerica-releases/",
   "apk_url": "",
   "api_url": "",
-  "changelog": "Primera versión pública: 7 métodos, offline, práctica."
+  "changelog": "Almacén con ejercicios de clase 2, tarea 2.1, semana 3, Müller y examen. Guías por método."
 }

@@ -1,9 +1,44 @@
 {
   "chips": [
-    { "id": "ea", "title": "Error aproximado", "text": "Ea = |(xi - xi-1) / xi| * 100. En clase suele pedirse Ea < 1%." },
-    { "id": "gprime", "title": "Punto fijo", "text": "Converge si |g'(x)| < 1 cerca de la raíz. Tabla: i | xi | Ei." },
-    { "id": "derivada1", "title": "Newton", "text": "derivada1: si x>1 entonces h=0.01*x, si no h=0.01." },
-    { "id": "muller", "title": "Müller", "text": "Parábola por 3 puntos. El signo de la raíz cuadrada es el mismo de b." },
-    { "id": "signo", "title": "Intervalo", "text": "Bisección y regla falsa necesitan f(a)*f(b) < 0." }
+    {
+      "id": "ea",
+      "title": "Error aproximado",
+      "text": "Ea = |(xi − xi−1)/xi|·100. En clase casi siempre Ea < 1 %. El examen a veces pide 0.01 % o |f|<10⁻⁵."
+    },
+    {
+      "id": "cerrados",
+      "title": "Métodos cerrados",
+      "text": "Bisección y regla falsa necesitan f(a)·f(b) < 0. El intervalo atrapa la raíz."
+    },
+    {
+      "id": "abiertos",
+      "title": "Métodos abiertos",
+      "text": "Punto fijo, Newton y secante parten de una aproximación. Pueden converger rápido o diverger."
+    },
+    {
+      "id": "gprime",
+      "title": "Punto fijo",
+      "text": "Tabla i | xi | Ei. Comprobar |g'| < 1. Excel: Ea < 1 %. Octave Punto.m: |Δx| ≤ 0.0005."
+    },
+    {
+      "id": "derivada1",
+      "title": "Newton (derivada1)",
+      "text": "Si x>1 → h=0.01·x; si no h=0.01. y = 0.5·(f(x+h)−f(x−h))/h."
+    },
+    {
+      "id": "muller",
+      "title": "Müller",
+      "text": "Parábola por 3 puntos. El signo de la raíz cuadrada es el de b. GT: Ea < 0.05 %."
+    },
+    {
+      "id": "octave",
+      "title": "Octave en clase",
+      "text": "diary semanaN → diary on → %Metodo… Evidencias = Command Window oscuro, sin colorcitos."
+    },
+    {
+      "id": "excel",
+      "title": "Excel de la profesora",
+      "text": "Ejercicio N: en naranja. 7 decimales. Fórmulas vivas. Sin rellenos. Sin rutas en celdas."
+    }
   ]
 }
