@@ -1,8 +1,8 @@
 {
-  "version": "1.5.0",
-  "build": 7,
+  "version": "1.6.0",
+  "build": 8,
   "web_url": "https://ingyasen.github.io/numerica-releases/",
   "apk_url": "",
   "api_url": "",
-  "changelog": "Entrar con huella o rostro del celular."
+  "changelog": "Más rápida: actualización al toque y atajo al último método."
 }
