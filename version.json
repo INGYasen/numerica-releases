@@ -1,8 +1,8 @@
 {
-  "version": "1.9.2",
-  "build": 14,
+  "version": "1.9.3",
+  "build": 15,
   "web_url": "https://ingyasen.github.io/numerica-releases/",
   "apk_url": "",
   "api_url": "",
-  "changelog": "Botón Descargar app: el celular pide instalar Radix."
+  "changelog": "Instalar Radix más estable: Chrome pide permiso y no se traba."
 }
