@@ -1,8 +1,8 @@
 {
-  "version": "1.10.3",
-  "build": 25,
+  "version": "1.10.4",
+  "build": 26,
   "web_url": "https://ingyasen.github.io/numerica-releases/",
   "apk_url": "https://ingyasen.github.io/numerica-releases/radix.apk",
   "api_url": "",
-  "changelog": "Acceso corregido: Libre, huella o PIN. Ventanas claras para buscar, instalar y confirmar actualizaciones."
+  "changelog": "Huella se puede pedir otra vez. Clave de cuenta ya no muestra error técnico."
 }
