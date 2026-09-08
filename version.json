@@ -1,8 +1,8 @@
 {
-  "version": "1.10.4",
-  "build": 26,
+  "version": "1.10.5",
+  "build": 27,
   "web_url": "https://ingyasen.github.io/numerica-releases/",
   "apk_url": "https://ingyasen.github.io/numerica-releases/radix.apk",
   "api_url": "",
-  "changelog": "Huella se puede pedir otra vez. Clave de cuenta ya no muestra error técnico."
+  "changelog": "La actualización queda lista dentro de la app, sin salir ni volver a abrir."
 }
