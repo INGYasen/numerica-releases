@@ -1,8 +1,8 @@
 {
-  "version": "1.10.1",
-  "build": 23,
+  "version": "1.10.2",
+  "build": 24,
   "web_url": "https://ingyasen.github.io/numerica-releases/",
   "apk_url": "https://ingyasen.github.io/numerica-releases/radix.apk",
   "api_url": "",
-  "changelog": "Excel ya no cierra la app. Gráfica más detallada. Compartir estable."
+  "changelog": "Gráfica precisa y descargable en PNG. Tablas con todas las columnas del método. Mejor contraste en modo oscuro."
 }
