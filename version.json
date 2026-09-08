@@ -1,8 +1,8 @@
 {
-  "version": "1.10.2",
-  "build": 24,
+  "version": "1.10.3",
+  "build": 25,
   "web_url": "https://ingyasen.github.io/numerica-releases/",
   "apk_url": "https://ingyasen.github.io/numerica-releases/radix.apk",
   "api_url": "",
-  "changelog": "Gráfica precisa y descargable en PNG. Tablas con todas las columnas del método. Mejor contraste en modo oscuro."
+  "changelog": "Acceso corregido: Libre, huella o PIN. Ventanas claras para buscar, instalar y confirmar actualizaciones."
 }
