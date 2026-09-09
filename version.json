@@ -1,8 +1,8 @@
 {
-  "version": "1.11.0",
-  "build": 32,
+  "version": "1.11.1",
+  "build": 33,
   "web_url": "https://ingyasen.github.io/numerica-releases/",
   "apk_url": "https://ingyasen.github.io/numerica-releases/radix.apk",
   "api_url": "",
-  "changelog": "El escaneo entiende el enunciado: lee la funcion real, detecta los metodos que pide, la tolerancia y calcula los puntos iniciales enteros evitando discontinuidades. Se elimino la funcion de ejemplo por defecto."
+  "changelog": "El escaneo ahora prepara la foto (orientacion, contraste, umbral) y reintenta con varios motores de OCR. Repone la x que el OCR pierde en las formulas y usa la derivada del enunciado para confirmar la lectura. Lee el punto inicial y limpia los datos del ejercicio anterior."
 }
