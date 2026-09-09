@@ -1,8 +1,8 @@
 {
-  "version": "1.12.2",
-  "build": 37,
+  "version": "1.12.3",
+  "build": 38,
   "web_url": "https://ingyasen.github.io/numerica-releases/",
   "apk_url": "https://ingyasen.github.io/numerica-releases/radix.apk",
   "api_url": "",
-  "changelog": "Lee f(x) completo del enunciado (e^x, e^{-x^2}, cos x, etc.) y ya no se queda con un pedazo."
+  "changelog": "Lee Función: f(x)=x^3+2x^2+10x-20 e Intervalo inicial [1, 2] tal cual la diapositiva."
 }
