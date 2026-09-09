@@ -1,8 +1,8 @@
 {
-  "version": "1.12.0",
-  "build": 35,
+  "version": "1.12.1",
+  "build": 36,
   "web_url": "https://ingyasen.github.io/numerica-releases/",
   "apk_url": "https://ingyasen.github.io/numerica-releases/radix.apk",
   "api_url": "",
-  "changelog": "Biseccion: lee el enunciado, completa [a;b] o grafica si no viene, tabla con ci y signos +/-, y pasos de Octave del mismo ejercicio."
+  "changelog": "Si la barra de actualizacion se quedaba en 100%, ahora se cierra sola y aparece Continuar."
 }
