@@ -1,8 +1,8 @@
 {
-  "version": "1.10.9",
-  "build": 31,
+  "version": "1.11.0",
+  "build": 32,
   "web_url": "https://ingyasen.github.io/numerica-releases/",
   "apk_url": "https://ingyasen.github.io/numerica-releases/radix.apk",
   "api_url": "",
-  "changelog": "Revision Play: borrado local y remoto correcto, privacidad precisa, camara sin permiso directo y firma protegida."
+  "changelog": "El escaneo entiende el enunciado: lee la funcion real, detecta los metodos que pide, la tolerancia y calcula los puntos iniciales enteros evitando discontinuidades. Se elimino la funcion de ejemplo por defecto."
 }
