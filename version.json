@@ -4,5 +4,5 @@
   "web_url": "https://ingyasen.github.io/numerica-releases/",
   "apk_url": "https://ingyasen.github.io/numerica-releases/radix.apk",
   "api_url": "",
-  "changelog": "Al escanear, e^x / e^{-x} y raiz cuadrada ya se copian en f(x) (antes se perdian y quedaba solo 2x+1)."
+  "changelog": "Al leer el enunciado, f(x) se copia completa (e^x, cos x, etc.) y ya no se queda solo con un pedazo."
 }
