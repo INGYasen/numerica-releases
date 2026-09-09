@@ -1,8 +1,8 @@
 {
-  "version": "1.12.1",
-  "build": 36,
+  "version": "1.12.2",
+  "build": 37,
   "web_url": "https://ingyasen.github.io/numerica-releases/",
   "apk_url": "https://ingyasen.github.io/numerica-releases/radix.apk",
   "api_url": "",
-  "changelog": "Si la barra de actualizacion se quedaba en 100%, ahora se cierra sola y aparece Continuar."
+  "changelog": "Al escanear, e^x / e^{-x} y raiz cuadrada ya se copian en f(x) (antes se perdian y quedaba solo 2x+1)."
 }
