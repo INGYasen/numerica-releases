@@ -1,8 +1,8 @@
 {
-  "version": "1.12.5",
-  "build": 40,
+  "version": "1.12.6",
+  "build": 41,
   "web_url": "https://ingyasen.github.io/numerica-releases/",
   "apk_url": "https://ingyasen.github.io/numerica-releases/radix.apk",
   "api_url": "",
-  "changelog": "Lee f(x) completa (x^2, sen, e^{-x}) y en el resultado muestra las raices del barrido en la grafica."
+  "changelog": "Si el OCR se come el 3 de x^3+2x^2+10x-20, ahora arma el polinomio completo y el intervalo [1;2]."
 }
