@@ -1,8 +1,8 @@
 {
-  "version": "1.12.1",
-  "build": 36,
+  "version": "1.12.2",
+  "build": 37,
   "web_url": "https://ingyasen.github.io/numerica-releases/",
   "apk_url": "https://ingyasen.github.io/numerica-releases/radix.apk",
   "api_url": "",
-  "changelog": "Si la barra de actualizacion se quedaba en 100%, ahora se cierra sola y aparece Continuar."
+  "changelog": "Lee f(x) completo del enunciado (e^x, e^{-x^2}, cos x, etc.) y ya no se queda con un pedazo."
 }
