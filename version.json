@@ -1,8 +1,8 @@
 {
-  "version": "1.12.4",
-  "build": 39,
+  "version": "1.12.5",
+  "build": 40,
   "web_url": "https://ingyasen.github.io/numerica-releases/",
   "apk_url": "https://ingyasen.github.io/numerica-releases/radix.apk",
   "api_url": "",
-  "changelog": "Newton: tabla i | xi | Ei como en clase, y pasos de Octave con syms, diff y subs del mismo ejercicio."
+  "changelog": "Lee f(x) completa (x^2, sen, e^{-x}) y en el resultado muestra las raices del barrido en la grafica."
 }
