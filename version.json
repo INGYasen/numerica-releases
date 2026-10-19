@@ -1,8 +1,8 @@
 {
-  "version": "1.12.6",
-  "build": 41,
+  "version": "1.13.0",
+  "build": 42,
   "web_url": "https://ingyasen.github.io/numerica-releases/",
   "apk_url": "https://ingyasen.github.io/numerica-releases/radix.apk",
   "api_url": "",
-  "changelog": "Si el OCR se come el 3 de x^3+2x^2+10x-20, ahora arma el polinomio completo y el intervalo [1;2]."
+  "changelog": "Unidad 2: solo Lagrange y Newton. Gráfica del polinomio y Excel con tabla a color."
 }
