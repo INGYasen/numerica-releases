@@ -1,8 +1,8 @@
 {
-  "version": "1.13.6",
-  "build": 48,
+  "version": "1.13.7",
+  "build": 49,
   "web_url": "https://ingyasen.github.io/numerica-releases/",
   "apk_url": "https://ingyasen.github.io/numerica-releases/radix.apk",
   "api_url": "",
-  "changelog": "En modo oscuro la respuesta queda en dorado y se lee el número."
+  "changelog": "Nodos a elegir, grado según los datos, cota del error y Excel con columnas de color."
 }
