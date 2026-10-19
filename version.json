@@ -1,8 +1,8 @@
 {
-  "version": "1.13.1",
-  "build": 43,
+  "version": "1.13.2",
+  "build": 44,
   "web_url": "https://ingyasen.github.io/numerica-releases/",
   "apk_url": "https://ingyasen.github.io/numerica-releases/radix.apk",
   "api_url": "",
-  "changelog": "Lagrange y Newton quedan con los valores de los ejemplos de clase. La tabla sigue el grado elegido."
+  "changelog": "Se puede escribir decimales en los nodos. Al cambiar de grado, la tabla y el Excel siguen ese grado."
 }
