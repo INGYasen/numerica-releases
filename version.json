@@ -1,8 +1,8 @@
 {
-  "version": "1.13.5",
-  "build": 47,
+  "version": "1.13.6",
+  "build": 48,
   "web_url": "https://ingyasen.github.io/numerica-releases/",
   "apk_url": "https://ingyasen.github.io/numerica-releases/radix.apk",
   "api_url": "",
-  "changelog": "La tabla de nodos muestra x y y en columnas separadas."
+  "changelog": "En modo oscuro la respuesta queda en dorado y se lee el número."
 }
