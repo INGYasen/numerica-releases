@@ -1,8 +1,8 @@
 {
-  "version": "1.13.3",
-  "build": 45,
+  "version": "1.13.4",
+  "build": 46,
   "web_url": "https://ingyasen.github.io/numerica-releases/",
   "apk_url": "https://ingyasen.github.io/numerica-releases/radix.apk",
   "api_url": "",
-  "changelog": "El Excel trae portada, tablas con color y el P(x) calculado en su columna."
+  "changelog": "Pruebas de Lagrange y Newton en verde. Excel con tablas y P(x) en su columna."
 }
