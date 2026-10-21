@@ -1,8 +1,8 @@
 {
-  "version": "1.13.9",
-  "build": 51,
+  "version": "1.13.10",
+  "build": 52,
   "web_url": "https://ingyasen.github.io/numerica-releases/",
   "apk_url": "https://ingyasen.github.io/numerica-releases/radix.apk",
   "api_url": "",
-  "changelog": "La descarga de Excel es un archivo xlsx y abre en Excel. Un problema nuevo empieza con la tabla vacia."
+  "changelog": "En el navegador ancho se ve la barra arriba y el cálculo al lado. Si piden varios x, cada uno sale con sus nodos. La app sigue igual."
 }
