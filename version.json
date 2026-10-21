@@ -1,8 +1,8 @@
 {
-  "version": "1.13.8",
-  "build": 50,
+  "version": "1.13.9",
+  "build": 51,
   "web_url": "https://ingyasen.github.io/numerica-releases/",
   "apk_url": "https://ingyasen.github.io/numerica-releases/radix.apk",
   "api_url": "",
-  "changelog": "El Excel de Lagrange y Newton abre bien y calcula las diferencias. Un problema nuevo empieza con la tabla vacía."
+  "changelog": "La descarga de Excel es un archivo xlsx y abre en Excel. Un problema nuevo empieza con la tabla vacia."
 }
